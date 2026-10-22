@@ -1,0 +1,57 @@
+{
+ "lazyPair": {
+  "run": "run_9fe1d074fedc",
+  "lazy": "Spaces just look right everywhere without any fuss, so you don’t have to mess with editor settings. Tabs are basically chaos waiting to happen when someone opens the file differently.",
+  "tabs": "Tabs are semantically superior. A tab *means* \"one level of indentation\"; a space means \"one column.\" This distinction allows **personal preference without team conflict**: the developer who needs 2-space density sets their editor to width=2, while the accessibility-conscious dev sets width=4 or 8. The code logic remains identical; only the rendering changes.\n\nSpaces hard-code visual presentation into the source file, forcing your aesthetic on everyone else. Tabs respect the separation of content (logic) and presentation (style). They produce smaller files, enable instant navigation (one keystroke per level), and integrate natively with \"elastic tabstops\" for complex alignment. Choosing spaces is choosing rigidity; choosing tabs is choosing **freedom, accessibility, and semantic correctness.**",
+  "moderator": "Consistency / \"Looks Right Everywhere\": Spaces render identically across all environments (terminals, `git diff`, GitHub/GitLab web UI, `cat`, `less`, editors, printers, emails) without requiring configuration. Zero Configuration Friction: Works \"out of the box\" without the user needing to hunt for \"tab width\" settings in their IDE, terminal emulator, or web viewer. Predictability / Avoids Chaos: Eliminates the risk of misalignment or jarring visual breaks when a file is viewed in an environment with a different default tab width (e.g., 8-space default terminals vs. 4-space editor settings). Portability: The source file is the presentation; it is a self-contained artifact that does not rely on external renderer settings to be readable.",
+  "lazyWords": 30,
+  "moderatorWords": 109
+ },
+ "lazySix": [
+  {
+   "n": 1,
+   "order": "P",
+   "lazyWords": 35,
+   "moderatorWords": 89
+  },
+  {
+   "n": 2,
+   "order": "Q",
+   "lazyWords": 30,
+   "moderatorWords": 109
+  },
+  {
+   "n": 3,
+   "order": "P",
+   "lazyWords": 28,
+   "moderatorWords": 57
+  },
+  {
+   "n": 4,
+   "order": "Q",
+   "lazyWords": 33,
+   "moderatorWords": 89
+  },
+  {
+   "n": 5,
+   "order": "P",
+   "lazyWords": 36,
+   "moderatorWords": 57
+  },
+  {
+   "n": 6,
+   "order": "Q",
+   "lazyWords": 20,
+   "moderatorWords": 66
+  }
+ ],
+ "debate1": {
+  "run": "run_f15709f5f67f",
+  "judge": "The decisive argument is **accessibility**: tabs allow visually impaired developers to configure indentation width to their needs without reformatting the repository, a capability spaces fundamentally cannot provide. While spaces offer superior cross-environment visual consistency and enjoy broader ecosystem consensus, the semantic nature of tabs uniquely supports inclusive development practices by separating structural intent from visual presentation. This ethical imperative outweighs the practical conveniences of deterministic rendering.\n\nWINNER: tabs",
+  "tabsArgument": "**Tabs are the only logical choice because they encode *structure*, not *appearance*.**\n\nA tab represents one indentation level—semantically pure and universally understood. Spaces force a specific visual width (2? 4? 8?) on every reader, overriding personal preference and accessibility needs. Visually impaired developers often require wider indentation; tabs allow them to configure their IDE instantly without reformatting the repository.\n\nTabs eliminate \"alignment wars\" (spaces for indent, tabs for alignment) and prevent the subtle diff noise caused by mixed whitespace. They result in smaller files and allow `git diff --ignore-space-change` to actually work. \n\nCode is data, not typography. **Store the intent (level), render the preference (width). Use tabs.**"
+ },
+ "hookVerdicts": {
+  "left": "WINNER: spaces",
+  "right": "The decisive argument is that spaces provide deterministic visual consistency across all viewing environments—GitHub diffs, terminals, printers, and proportional fonts—without relying on editor configuration, which prevents alignment corruption and diff noise. Tabs' semantic elegance and accessibility benefits are undermined by the practical impossibility of controlling tab width in universal tools, while modern formatters automate space insertion, removing the keystroke burden. WINNER: spaces"
+ }
+}

@@ -1,0 +1,19 @@
+name: debate-ok
+nodes:
+  d:
+    pattern: debate
+    agent: llm://gpt-4o-mini
+    inputs:
+      topic: "${user.topic}"
+    config:
+      agents: 2
+      steps:
+        agent_1:
+          prompt: "SIDE-PRO: argue FOR the proposal."
+        agent_2:
+          prompt: "SIDE-CON: argue AGAINST the proposal."
+        collector:
+          prompt: "COLLECT"
+        judge:
+          prompt: "JUDGE"
+    outputs: [verdict]

@@ -1,0 +1,338 @@
+{
+ "main": {
+  "rows": [
+   {
+    "n": 1,
+    "order": "X",
+    "first": "tabs",
+    "winner": "tabs",
+    "run": "run_f15709f5f67f",
+    "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "date": "2026-10-22T17:24:41Z"
+   },
+   {
+    "n": 2,
+    "order": "Y",
+    "first": "spaces",
+    "winner": "tabs",
+    "run": "run_3461b8ed2117",
+    "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "date": "2026-10-22T17:26:32Z"
+   },
+   {
+    "n": 3,
+    "order": "X",
+    "first": "tabs",
+    "winner": "spaces",
+    "run": "run_2bdacbbad08f",
+    "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "date": "2026-10-22T17:28:32Z"
+   },
+   {
+    "n": 4,
+    "order": "Y",
+    "first": "spaces",
+    "winner": "spaces",
+    "run": "run_f895e97065e0",
+    "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "date": "2026-10-22T17:31:09Z"
+   },
+   {
+    "n": 5,
+    "order": "X",
+    "first": "tabs",
+    "winner": "spaces",
+    "run": "run_9ef504f211af",
+    "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "date": "2026-10-22T17:32:19Z"
+   },
+   {
+    "n": 6,
+    "order": "Y",
+    "first": "spaces",
+    "winner": "spaces",
+    "run": "run_22089606d59c",
+    "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "date": "2026-10-22T17:34:11Z"
+   },
+   {
+    "n": 7,
+    "order": "X",
+    "first": "tabs",
+    "winner": "spaces",
+    "run": "run_553dfabd0535",
+    "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "date": "2026-10-22T17:35:43Z"
+   },
+   {
+    "n": 8,
+    "order": "X",
+    "first": "tabs",
+    "winner": "spaces",
+    "run": "run_501afad8ae9d",
+    "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "date": "2026-10-22T17:37:04Z"
+   },
+   {
+    "n": 9,
+    "order": "X",
+    "first": "tabs",
+    "winner": "spaces",
+    "run": "run_0949b7149b10",
+    "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "date": "2026-10-22T17:38:16Z"
+   }
+  ],
+  "runs": 9,
+  "spaces": 7,
+  "tabs": 2,
+  "xRuns": 6,
+  "xTabs": 1,
+  "yRuns": 3,
+  "yTabs": 1
+ },
+ "lazy": {
+  "rows": [
+   {
+    "n": 1,
+    "order": "P",
+    "first": "spaces",
+    "winner": "tabs",
+    "run": "run_75fc235c0f7a",
+    "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "date": "2026-10-22T17:46:10Z"
+   },
+   {
+    "n": 2,
+    "order": "Q",
+    "first": "tabs",
+    "winner": "spaces",
+    "run": "run_9fe1d074fedc",
+    "model": "nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "date": "2026-10-22T18:21:01Z"
+   },
+   {
+    "n": 3,
+    "order": "P",
+    "first": "spaces",
+    "winner": "tabs",
+    "run": "run_18b3d9a95594",
+    "model": "nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "date": "2026-10-22T18:21:50Z"
+   },
+   {
+    "n": 4,
+    "order": "Q",
+    "first": "tabs",
+    "winner": "tabs",
+    "run": "run_4cf5b4ed1c23",
+    "model": "nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "date": "2026-10-22T18:23:11Z"
+   },
+   {
+    "n": 5,
+    "order": "P",
+    "first": "spaces",
+    "winner": "tabs",
+    "run": "run_ad82708f27a0",
+    "model": "nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "date": "2026-10-22T18:24:12Z"
+   },
+   {
+    "n": 6,
+    "order": "Q",
+    "first": "tabs",
+    "winner": "spaces",
+    "run": "run_e9b58f6d4ecb",
+    "model": "nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "date": "2026-10-22T18:25:40Z"
+   }
+  ],
+  "runs": 6,
+  "lazySpacesWins": 2,
+  "tabsWins": 4,
+  "firstRuns": 3,
+  "firstLazyWins": 0,
+  "lastRuns": 3,
+  "lastLazyWins": 2
+ },
+ "bMain": {
+  "rows": [
+   {
+    "n": 1,
+    "order": "X",
+    "first": "tabs",
+    "winner": "spaces",
+    "run": "run_958369531a02",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "date": "2026-10-22T17:53:33Z"
+   },
+   {
+    "n": 2,
+    "order": "Y",
+    "first": "spaces",
+    "winner": "tabs",
+    "run": "run_692d0453be8a",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "date": "2026-10-22T17:53:54Z"
+   },
+   {
+    "n": 3,
+    "order": "X",
+    "first": "tabs",
+    "winner": "tabs",
+    "run": "run_fc1f57966611",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "date": "2026-10-22T17:54:26Z"
+   },
+   {
+    "n": 4,
+    "order": "Y",
+    "first": "spaces",
+    "winner": "tabs",
+    "run": "run_451b373864f1",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "date": "2026-10-22T17:54:57Z"
+   },
+   {
+    "n": 5,
+    "order": "X",
+    "first": "tabs",
+    "winner": "tabs",
+    "run": "run_fd60a710cdeb",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "date": "2026-10-22T17:55:23Z"
+   },
+   {
+    "n": 6,
+    "order": "Y",
+    "first": "spaces",
+    "winner": "tabs",
+    "run": "run_f31092924571",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "date": "2026-10-22T17:55:55Z"
+   }
+  ],
+  "runs": 6,
+  "tabs": 5,
+  "spaces": 1
+ },
+ "bLazy": {
+  "rows": [
+   {
+    "n": 1,
+    "order": "P",
+    "first": "spaces",
+    "winner": "tabs",
+    "run": "run_53481429fe2c",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "date": "2026-10-22T17:56:23Z"
+   },
+   {
+    "n": 2,
+    "order": "Q",
+    "first": "tabs",
+    "winner": "tabs",
+    "run": "run_1799e7c2e2ea",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "date": "2026-10-22T17:56:53Z"
+   },
+   {
+    "n": 3,
+    "order": "P",
+    "first": "spaces",
+    "winner": "tabs",
+    "run": "run_3b33cc8c11e2",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "date": "2026-10-22T17:57:19Z"
+   },
+   {
+    "n": 4,
+    "order": "Q",
+    "first": "tabs",
+    "winner": "tabs",
+    "run": "run_b74f8c130253",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "date": "2026-10-22T17:57:52Z"
+   },
+   {
+    "n": 5,
+    "order": "P",
+    "first": "spaces",
+    "winner": "tabs",
+    "run": "run_89bae6bf2e13",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "date": "2026-10-22T17:58:25Z"
+   },
+   {
+    "n": 6,
+    "order": "Q",
+    "first": "tabs",
+    "winner": "tabs",
+    "run": "run_a12f06f57b7d",
+    "model": "gemini/gemini-3.5-flash-lite",
+    "date": "2026-10-22T17:58:51Z"
+   }
+  ],
+  "runs": 6,
+  "tabs": 6,
+  "lazySpacesWins": 0
+ },
+ "check": {
+  "rows": [
+   {
+    "n": 1,
+    "order": "C",
+    "first": "dark",
+    "winner": "light",
+    "run": "run_cd943d19e945",
+    "model": "nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "date": "2026-10-22T18:27:13Z"
+   },
+   {
+    "n": 2,
+    "order": "D",
+    "first": "light",
+    "winner": "light",
+    "run": "run_b03db5f1ca7b",
+    "model": "nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "date": "2026-10-22T18:28:28Z"
+   }
+  ],
+  "runs": 2,
+  "light": 2,
+  "dark": 0
+ },
+ "verdict": {
+  "judge1": {
+   "side": "spaces",
+   "wins": 7,
+   "of": 9
+  },
+  "judge2": {
+   "side": "tabs",
+   "wins": 5,
+   "of": 6
+  }
+ },
+ "hook": {
+  "left": {
+   "n": 5,
+   "order": "X",
+   "first": "tabs",
+   "winner": "spaces",
+   "run": "run_9ef504f211af",
+   "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+   "date": "2026-10-22T17:32:19Z"
+  },
+  "right": {
+   "n": 4,
+   "order": "Y",
+   "first": "spaces",
+   "winner": "spaces",
+   "run": "run_f895e97065e0",
+   "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+   "date": "2026-10-22T17:31:09Z"
+  }
+ }
+}

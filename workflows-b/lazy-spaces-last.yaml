@@ -1,0 +1,18 @@
+name: ep05-b-lazy-spaces-last
+nodes:
+  d:
+    pattern: debate
+    agent: llm://gemini/gemini-3.5-flash-lite
+    system_prompt: "Topic of the debate: should code be indented with tabs or with spaces?"
+    inputs:
+      topic: "should code be indented with tabs or with spaces?"
+    config:
+      agents: 2
+      steps:
+        agent_1:
+          prompt: "Argue strongly that code should be indented with tabs. Keep it under 120 words."
+        agent_2:
+          prompt: "Argue that code should be indented with spaces. Give a lazy, vague argument in two sentences."
+        judge:
+          prompt: "Evaluate the arguments and render a verdict in two or three sentences: name the decisive argument. Then end with a last line in exactly this form: WINNER: tabs  or  WINNER: spaces"
+    outputs: [verdict]

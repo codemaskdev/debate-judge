@@ -1,0 +1,27 @@
+{
+ "unseeded": [
+  "PRO",
+  "PRO",
+  "PRO",
+  "CON",
+  "CON",
+  "PRO"
+ ],
+ "seeded": {
+  "1": [
+   "CON",
+   "CON",
+   "CON"
+  ],
+  "2": [
+   "PRO",
+   "PRO",
+   "PRO"
+  ],
+  "3": [
+   "PRO",
+   "PRO",
+   "PRO"
+  ]
+ }
+}
